@@ -651,32 +651,4 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="framerate_ntsc_entries">
-        <item>120</item>
-        <item>90</item>
-        <item>60 (Default)</item>
-        <item>30</item>
-        <item>15</item>
-    </string-array>
-    <string-array name="framerate_ntsc_values">
-        <item>119.88</item>
-        <item>89.91</item>
-        <item>59.94</item>
-        <item>29.97</item>
-        <item>14.98</item>
-    </string-array>
-    <string-array name="framerate_pal_entries">
-        <item>100</item>
-        <item>75</item>
-        <item>50 (Default)</item>
-        <item>25</item>
-        <item>12</item>
-    </string-array>
-    <string-array name="framerate_pal_values">
-        <item>100</item>
-        <item>75</item>
-        <item>50</item>
-        <item>25</item>
-        <item>12.5</item>
-    </string-array>
 </resources>
