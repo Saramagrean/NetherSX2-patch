@@ -17,7 +17,7 @@
         <xyz.aethersx2.android.FloatSpinBoxPreference app:defaultValue="0.5" app:format="%.1f%%" app:iconSpaceReserved="false" app:interval="0.01" app:key="Framerate/SlomoScalar" app:maxValue="3.0" app:minValue="0.1" app:multiplier="100.0" app:nullable="true" app:title="@string/settings_slowmo_speed" app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
     <PreferenceCategory app:iconSpaceReserved="false" app:title="@string/settings_category_framerate">
-	    <xyz.aethersx2.android.FloatSpinBoxPreference app:defaultValue="59.94" app:format="%.0f%% (hz)" app:iconSpaceReserved="false" app:interval="1" app:key="EmuCore/GS/FramerateNTSC" app:maxValue="120" app:minValue="15" app:nullable="true" app:title="@string/settings_framerate_ntsc" app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.FloatSpinBoxPreference app:defaultValue="59.94" app:format="%.0f%% (hz)" app:iconSpaceReserved="false" app:interval="1" app:key="EmuCore/GS/FramerateNTSC" app:maxValue="120" app:minValue="15" app:nullable="true" app:title="@string/settings_framerate_ntsc" app:useSimpleSummaryProvider="true" />
         <xyz.aethersx2.android.FloatSpinBoxPreference app:defaultValue="50.00" app:format="%.0f%% (hz)" app:iconSpaceReserved="false" app:interval="1" app:key="EmuCore/GS/FrameratePAL" app:maxValue="100" app:minValue="20" app:nullable="true" app:title="@string/settings_framerate_pal" app:useSimpleSummaryProvider="true" />
-	</PreferenceCategory>
+    </PreferenceCategory>
 </PreferenceScreen>
