@@ -688,7 +688,7 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_summary_disable_dual_source_blend">Prevents use of dual-source blending when supported. Debugging option.</string>
     <string name="settings_summary_disable_framebuffer_fetch">Disables the framebuffer fetch in blending shaders, falling back to multipass and texture barriers.</string>
     <string name="settings_summary_disable_interlace_offset">Removes the destination offset when using weave/blend deinterlacing.</string>
-    <string name="settings_summary_dump_replaceable_textures">Dump Replaceable Textures</string>
+    <string name="settings_summary_dump_replaceable_textures">Dump replaceable textures.</string>
     <string name="settings_summary_ee_console">Logs messages printed by the game from the EE.</string>
     <string name="settings_summary_ee_fpu_correct_add_sub">Add/subtract instructions produce the same results as the console.</string>
     <string name="settings_summary_enable_ee_recompiler">Performs just-in-time binary translation of 64-bit MIPS-IV machine code to native code.</string>

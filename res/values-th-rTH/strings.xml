@@ -655,5 +655,5 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_framerate_pal">เฟรมเรทสำหรับตัวเกมโซน PAL</string>
     <string name="settings_summary_achievements_notifications">แสดงข้อความแจ้งเตือนเกี่ยวกับเหตุการณ์ต่างๆ เช่น การปลดล็อคเป้าหมายความสำเร็จ และการส่งคะแนนไปยังกระดานผู้นำ</string>
     <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นมาเก็บไว้</string>
-    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกมมาเก็บไว้ในเครื่อง</string>
+    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกม มาเก็บไว้ในเครื่อง</string>
 </resources>

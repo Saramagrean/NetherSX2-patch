@@ -10600,8 +10600,6 @@ SCUS-97481:
   name: "God of War II"
   region: "NTSC-U"
   compat: 5
-  speedHacks:
-    mvuFlagSpeedHack: 0 # Fixes enemies attacks turning into squares.
   gsHWFixes:
     halfPixelOffset: 1 # Fixes misaligned bloom.
     alignSprite: 1 # Fixes water vertical lines.
@@ -61336,3 +61334,118 @@ TLES-82043:
     recommendedBlendingLevel: 3 # Fixes skin colour and banding.
     autoFlush: 1 # Fixes lens flare.
     halfPixelOffset: 1 # Aligns depth of field effect.
+SCES-50850:
+  name: "Gran Turismo - Concept 2002 Tokyo-Geneva"
+  region: "PAL-Unk"
+SCES-52155:
+  name: "Eredita, L'"
+  region: "PAL-I"
+SCES-54370:
+  name: "SingStar Pop Hits"
+  region: "PAL-E"
+SCES-54371:
+  name: "SingStar Pop Hits"
+  region: "PAL-G"
+SCES-54372:
+  name: "SingStar Pop Hits - 40 Principales"
+  region: "PAL-S"
+SCES-54373:
+  name: "SingStar Pop Hits"
+  region: "PAL-SC" # Scandinavian (Danish,Norwegian,Finnish)
+SCES-54374:
+  name: "SingStar Pop Hits"
+  region: "PAL-F"
+SCES-54375:
+  name: "SingStar Pop Hits"
+  region: "PAL-P"
+SCES-54641:
+  name: "SingStar - Après-Ski Party 2"
+  region: "PAL-G"
+SCUS-21494:
+  name: "Need for Speed - Carbon Collector's Edition"
+  region: "NTSC-U"
+  compat: 5
+  clampModes:
+    eeClampMode: 3 # Fixes game hang after opening intro.
+  gsHWFixes:
+    halfPixelOffset: 2 # Fixes blurriness.
+    roundSprite: 2 # Fixes blurriness.
+SLES-50432:
+  name: "Tony Hawk Pro Skater 3"
+  region: "PAL-Unk"
+SLES-50506:
+  name: "Half-Life"
+  region: "PAL-Unk"
+SLES-51541:
+  name: "Grand Theft Auto - San Andreas"
+  region: "PAL-Unk"
+  clampModes:
+    eeClampMode: 2 # Fixes Game freezes during "Reuniting The Families" mission.
+  gsHWFixes:
+    autoFlush: 1
+SLES-51731:
+  name: "Bust-A-Block"
+  region: "PAL-Unk"
+SLES-51752:
+  name: "Tony Hawks Underground"
+  region: "PAL-Unk"
+  roundModes:
+    vu1RoundMode: 0 # Crashes without.
+SLES-51782:
+  name: "Fire Warrior"
+  region: "PAL-Unk"
+SLES-55496:
+  name: "Secret Agent Clank"
+  region: "PAL-Unk"
+SLES-55571:
+  name: "Ghostbusters"
+  region: "PAL-M6"
+  compat: 5
+SLES-82034:
+  name: "Xenosaga Episode II [Disc 1 of 2]"
+  region: "PAL-M3"
+  gsHWFixes:
+    halfPixelOffset: 2 # Fixes lighting misalignment and shadows.
+    roundSprite: 2 # Fixes font artifacts.
+  memcardFilters:
+    - "SLES-82034"
+    - "SCES-82034"
+SLES-82035:
+  name: "Xenosaga Episode II [Disc 2 of 2]"
+  region: "PAL-M3"
+  gsHWFixes:
+    halfPixelOffset: 2 # Fixes lighting misalignment and shadows.
+    roundSprite: 2 # Fixes font artifacts.
+  memcardFilters:
+    - "SLES-82034"
+    - "SCES-82034"
+SLUS-21056:
+  name: "Cabal, The ~~CANCELLED~~"
+  region: "NTSC-U"
+SLUS-97133:
+  name: "Getaway, The"
+  region: "NTSC-U"
+  gsHWFixes:
+    recommendedBlendingLevel: 3 # Fixes the fog wall.
+    textureInsideRT: 1
+    texturePreloading: 1 # Performs much better with partial preload.
+    halfPixelOffset: 2 # Fixes outlines around characters.
+    getSkipCount: "GSC_GetawayGames"
+SLUS-97657:
+  name: "MLB 11 - The Show"
+  region: "NTSC-U"
+  compat: 5
+VW067-J1:
+  name: "Crash Bandicoot 4 - Sakuretsu! Majin Power!"
+  region: "NTSC-J"
+  gsHWFixes:
+    preloadFrameData: 1 # Fixes random texture corruptions such as horizontal lines.
+    cpuFramebufferConversion: 1 # Fixes fog wall.
+    getSkipCount: "GSC_CrashBandicootWoC"
+VW067-J2:
+  name: "Crash Bandicoot 4 - Sakuretsu! Majin Power! [PlayStation 2 The Best]"
+  region: "NTSC-J"
+  gsHWFixes:
+    preloadFrameData: 1 # Fixes random texture corruptions such as horizontal lines.
+    cpuFramebufferConversion: 1 # Fixes fog wall.
+    getSkipCount: "GSC_CrashBandicootWoC"
