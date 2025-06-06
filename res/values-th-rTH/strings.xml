@@ -324,6 +324,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_achievements_leaderboards">เปิดใช้งาน Leaderboards</string>
     <string name="settings_achievements_login">เข้าสู่ระบบ</string>
     <string name="settings_achievements_logout">ออกจากระบบ</string>
+    <string name="settings_achievements_notifications">เปิดใช้งานการแจ้งเตือน</string>
     <string name="settings_achievements_register">ลงทะเบียน</string>
     <string name="settings_achievements_rich_presence">เปิดใช้งาน Rich Presence</string>
     <string name="settings_achievements_sound_effects">เปิดใช้งานเสียงเอฟเฟ็กต์</string>
@@ -498,6 +499,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_summary_achievements_leaderboards">เปิดใช้งานการส่งไปยังกระดานผู้นำในโหมดยากสุดโหดสำหรับเกมที่รองรับ หากปิดใช้งาน คุณยังสามารถดูในกระดานผู้นำได้ แต่จะไม่มีการอัพโหลดคะแนน</string>
     <string name="settings_summary_achievements_login">ลงชื่อเข้าใช้งานบัญชีของคุณเพื่อบันทึกเป้าหมายความสำเร็จ</string>
     <string name="settings_summary_achievements_logout">ออกจากระบบบัญชีผู้ใช้งานของคุณ เป้าหมายความสำเร็จใหม่จะไม่ถูกบันทึก</string>
+    <string name="settings_summary_achievements_notifications">แสดงข้อความแจ้งเตือนเกี่ยวกับเหตุการณ์ต่างๆ เช่น การปลดล็อคเป้าหมายความสำเร็จ และการส่งคะแนนไปยังกระดานผู้นำ</string>
     <string name="settings_summary_achievements_register">เปิดลิงก์เพื่อทำการสร้างบัญชีผู้ใช้งานใหม่</string>
     <string name="settings_summary_achievements_rich_presence">ข้อมูล Rich presence จะถูกรวบรวม และส่งไปยังเซิร์ฟเวอร์ที่รองรับ อย่างเช่นใน Discord</string>
     <string name="settings_summary_achievements_sound_effects">เล่นเสียงเอฟเฟ็กต์สำหรับกิจกรรมต่างๆ เช่น การปลดล็อกรางวัลพิเศษ และการส่งแต้มไปยังกระดานผู้นำ</string>
@@ -649,11 +651,9 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="touchscreen_reset_layout_summary">แทนที่เค้าโครงปุ่มกดที่ใช้อยู่ในปัจจุบันด้วยค่าเริ่มต้น</string>
     <string name="update_notes_title">เอกสารการอัปเดต</string>
     <string name="wait_for_save_on_shutdown">กำลังเซฟสเตท...</string>
-    <string name="settings_achievements_notifications">เปิดใช้งานการแจ้งเตือน</string>
     <string name="settings_category_framerate">การควบคุมเฟรมเรท (วีดีโอ)</string>
     <string name="settings_framerate_ntsc">เฟรมเรทสำหรับตัวเกมโซน NTSC</string>
     <string name="settings_framerate_pal">เฟรมเรทสำหรับตัวเกมโซน PAL</string>
-    <string name="settings_summary_achievements_notifications">แสดงข้อความแจ้งเตือนเกี่ยวกับเหตุการณ์ต่างๆ เช่น การปลดล็อคเป้าหมายความสำเร็จ และการส่งคะแนนไปยังกระดานผู้นำ</string>
     <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นมาเก็บไว้</string>
     <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกม มาเก็บไว้ในเครื่อง</string>
 </resources>
