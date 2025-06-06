@@ -559,7 +559,9 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_dithering">Dithering</string>
     <string name="settings_dma_busy_fix">DMA Busy Fix</string>
     <string name="settings_driver_info_unavailable">"Unavailable when VM isn't running."</string>
+    <string name="settings_dump_replaceable_mipmaps">Dump Mipmaps</string>
     <string name="settings_dump_replaceable_textures">Dump Textures</string>
+    <string name="settings_dump_texture_fmv_active">Dump FMV Textures</string>
     <string name="settings_ee_console">Enable EE Console</string>
     <string name="settings_ee_cycle_rate">EE Cycle Rate (Underclocking)</string>
     <string name="settings_ee_cycle_skip">EE Cycle Skip (Underclocking)</string>
@@ -609,7 +611,7 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_interlacing">De-interlacing</string>
     <string name="settings_interpolation_mode">Interpolation Mode</string>
     <string name="settings_iop_console">Enable IOP Console</string>
-    <string name="settings_load_texture_replacements">Load Texture Replacements</string>
+    <string name="settings_load_texture_replacements">Load Textures</string>
     <string name="settings_logcat_logging">Enable Logcat Logging</string>
     <string name="settings_memory_wrapping">Memory Wrapping</string>
     <string name="settings_merge_sprite">Merge Sprite</string>
@@ -629,6 +631,7 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_partial_target_invalidation">Partial Target Invalidation</string>
     <string name="settings_patch_codes">Enable Patch Codes</string>
     <string name="settings_pcrtc_offsets">Screen Offsets</string>
+    <string name="settings_precache_texture_replacements">Precache Textures</string>
     <string name="settings_preload_frame_data">Preload Frame Data</string>
     <string name="settings_preload_textures">Texture Preloading</string>
     <string name="settings_read_tc_on_close">Read Targets When Closing</string>
@@ -688,7 +691,9 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_summary_disable_dual_source_blend">Prevents use of dual-source blending when supported. Debugging option.</string>
     <string name="settings_summary_disable_framebuffer_fetch">Disables the framebuffer fetch in blending shaders, falling back to multipass and texture barriers.</string>
     <string name="settings_summary_disable_interlace_offset">Removes the destination offset when using weave/blend deinterlacing.</string>
-    <string name="settings_summary_dump_replaceable_textures">Dump replaceable textures.</string>
+    <string name="settings_summary_dump_replaceable_mipmaps">Includes mipmaps when dumping textures.</string>
+    <string name="settings_summary_dump_replaceable_textures">Dump replaceable textures to disk. Will reduce performance.</string>
+    <string name="settings_summary_dump_texture_fmv_active">Allow texture dumping when FMVs are active. You should not enable this.</string>
     <string name="settings_summary_ee_console">Logs messages printed by the game from the EE.</string>
     <string name="settings_summary_ee_fpu_correct_add_sub">Add/subtract instructions produce the same results as the console.</string>
     <string name="settings_summary_enable_ee_recompiler">Performs just-in-time binary translation of 64-bit MIPS-IV machine code to native code.</string>
@@ -718,6 +723,7 @@ This may improve performance, but WILL BREAK some games."</string>
     <string name="settings_summary_output_volume">"Controls the volume of the emulator's sound output."</string>
     <string name="settings_summary_patch_codes">Enables user-provided patch codes.</string>
     <string name="settings_summary_pcrtc_offsets">Simulates CRT border area.</string>
+    <string name="settings_summary_precache_texture_replacements">Preloads all replacement textures to memory. Not necessary with asynchronous loading.</string>
     <string name="settings_summary_save_gs_dump">Only use this option when asked by developers.</string>
     <string name="settings_summary_save_state_on_shutdown">Saves state when shutting down a game, enabling you to continue where you left off.</string>
     <string name="settings_summary_shadeboost">Enables adjustment of brightness/contrast/saturation.</string>

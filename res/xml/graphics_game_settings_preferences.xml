@@ -212,6 +212,18 @@
             app:useSimpleSummaryProvider="true" />
         <xyz.aethersx2.android.TriStatePreference
             app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DumpReplaceableMipmaps"
+            app:summary="@string/settings_summary_dump_replaceable_mipmaps"
+            app:title="@string/settings_dump_replaceable_mipmaps"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/DumpTexturesWithFMVActive"
+            app:summary="@string/settings_summary_dump_texture_fmv_active"
+            app:title="@string/settings_dump_texture_fmv_active"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
             app:key="EmuCore/GS/LoadTextureReplacements"
             app:summary="@string/settings_summary_load_texture_replacements"
             app:title="@string/settings_load_texture_replacements"
@@ -221,6 +233,12 @@
             app:key="EmuCore/GS/LoadTextureReplacementsAsync"
             app:summary="@string/settings_summary_async_texture_loading"
             app:title="@string/settings_async_texture_loading"
+            app:useSimpleSummaryProvider="true" />
+        <xyz.aethersx2.android.TriStatePreference
+            app:iconSpaceReserved="false"
+            app:key="EmuCore/GS/PrecacheTextureReplacements"
+            app:summary="@string/settings_summary_precache_texture_replacements"
+            app:title="@string/settings_precache_texture_replacements"
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
 </PreferenceScreen>

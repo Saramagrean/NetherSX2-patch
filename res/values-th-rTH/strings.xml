@@ -12,7 +12,7 @@
     <string name="achievement_title_challenge_mode_format_string">%s (โหมดยากสุดโหด)</string>
     <string name="action_change_background">เปลี่ยนภาพพื้นหลัง</string>
     <string name="action_controller_mapping">การตั้งค่าควบคุมเกม</string>
-    <string name="action_settings">การตั้งค่าแอปพลิเคชั่น</string>
+    <string name="action_settings">การตั้งค่าแอพ</string>
     <string name="action_show_game_grid">มุมมองกริด</string>
     <string name="action_show_game_list">มุมมองรายการ</string>
     <string name="action_switch_view">เปลี่ยนมุมมอง</string>
@@ -45,7 +45,7 @@
     <string name="controller_binding_add_new_multibinding">เพิ่มปุ่มใหม่</string>
     <string name="controller_binding_choose_other">เลือกเซ็ตปุ่มทับ</string>
     <string name="controller_binding_dialog_clear">ลบล้าง</string>
-    <string name="controller_binding_dialog_message">"กดปุ่มในจอยเกมเพื่อทำการเซ็ตปุ่มทับใหม่ 
+    <string name="controller_binding_dialog_message">"กดปุ่มในจอยเกมเพื่อทำการเซ็ตปุ่มทับใหม่
 
 ปุ่มที่กำลังเซ็ต: %s"</string>
     <string name="controller_binding_dialog_no_binding">&lt;ไม่มีปุ่มที่ถูกเซ็ต></string>
@@ -109,7 +109,7 @@
     <string name="download_covers_help">"ในแบบฟอร์มด้านล่างนี้ ให้ระบุ URL ที่ต้องการจะดาวน์โหลดหน้าปกเกม โดยมี URL เทมเพลตหนึ่งรายการต่อบรรทัด ซึ่งมีตัวแปรดังต่อไปนี้:
 
 ${title}: ชื่อเกม
-${filetitle}: ชื่อคอมโพเนนต์ของชื่อไฟล์ของเกม
+${filetitle}:ชื่อคอมโพเนนต์ของชื่อไฟล์ของเกม
 ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="download_covers_missing_variables">ใช้ URL อย่างน้อยหนึ่งรายการที่ไม่มีตัวแปร</string>
     <string name="download_covers_no_urls">ยังไม่ได้ระบุ URL</string>
@@ -127,7 +127,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="empty_game_list_add_directory">เพิ่มสารบัญเกม</string>
     <string name="empty_game_list_no_games_found">ไม่พบเกมในรูปแบบที่รองรับ โปรดเพิ่มสารบัญที่มีไฟล์เกมอยู่ เพื่อเริ่มต้นใช้งาน</string>
     <string name="emulation_activity_patch_code_warning">"การใช้แพทช์โค้ดสูตรสามารถส่งผลที่คาดเดาไม่ได้กับเกม อย่างทำให้เกิดการเด้ง บกพร่องทางกราฟิก และข้อมูลเซฟอาจเกิดความเสียหาย เมื่อใช้แพทช์ฯ คุณยอมรับแล้วว่าเป็นการกำหนดค่าที่ไม่ได้อยู่ในการรองรับของแอพ และเราจะไม่ให้ความช่วยเหลือเมื่อเกมมีปัญหา
-
+	
 แพทช์ฯ บางอันจะยังคงบันทึกอยู่ในเซฟสเตท ถึงแม้ว่าจะปิดใช้งานสูตรไปแล้วก็ตาม ดังนั้นโปรดอย่าลืมรีเซ็ต/รีบูตเกม หลังจากที่ปิดสูตรเรียบร้อยแล้ว
 
 คุณแน่ใจแล้วใช่ไหมที่ต้องการจะดำเนินการต่อ?"</string>
@@ -310,9 +310,9 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="set_default_settings_title">เซ็ตค่าเริ่มต้น</string>
     <string name="set_default_settings_unsafe_warning">"
 
- คุณได้เลือกการตั้งค่าแบบรวดเร็ว/ไม่ปลอดภัย 
+คุณได้เลือกการตั้งค่าแบบรวดเร็ว/ไม่ปลอดภัย
 
- อาจทำให้ประสิทธิภาพดีขึ้น แต่จะเกิดปัญหาต่อบางเกมได้"</string>
+อาจทำให้ประสิทธิภาพดีขึ้น แต่จะเกิดปัญหาต่อบางเกมได้"</string>
     <string name="settings_achievements_category">บัญชีผู้ใช้งาน</string>
     <string name="settings_achievements_challenge_indicators">แสดงตัวบ่งชี้ของความท้าทาย</string>
     <string name="settings_achievements_challenge_mode">เปิดใช้งานโหมดยากสุดโหด</string>
@@ -359,6 +359,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_category_controller">การตั้งค่าควบคุม</string>
     <string name="settings_category_debugging">ตัวช่วยแก้ไขจุดบกพร่อง</string>
     <string name="settings_category_details">รายละเอียด</string>
+    <string name="settings_category_framerate">การควบคุมเฟรมเรท (วีดีโอ)</string>
     <string name="settings_category_game_display">หน้าจอแสดงผลเกม</string>
     <string name="settings_category_game_settings_audio">ระบบเสียงขั้นสูง</string>
     <string name="settings_category_game_settings_system">ตัวเลือกระบบ</string>
@@ -390,6 +391,9 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_dithering">การรวมจุดสี</string>
     <string name="settings_dma_busy_fix">แก้ไขความยุ่งเหยิงใน DMA</string>
     <string name="settings_driver_info_unavailable">ยังไม่พร้อมใช้งาน เมื่อ Virtual Machine ไม่ได้เริ่มทำงาน</string>
+    <string name="settings_dump_replaceable_mipmaps">ดึงไฟล์ผิวพื้น Mipmap</string>
+    <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นมาเก็บไว้</string>
+    <string name="settings_dump_texture_fmv_active">ดึงไฟล์ผิวพื้นจาก FMV</string>
     <string name="settings_ee_console">เปิดใช้งานคอนโซล EE</string>
     <string name="settings_ee_cycle_rate">อัตราการหมุนเวียน Emotion Engine (ค่าความถี่ซีพียูต่ำ)</string>
     <string name="settings_ee_cycle_skip">ข้ามการหมุนเวียน Emotion Engine (ค่าความถี่ซีพียูต่ำ)</string>
@@ -416,6 +420,8 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_fpu_mul_fix">แก้ไขค่ายกกำลังใน Floating Point Unit</string>
     <string name="settings_fpu_neg_div_fix">แก้ไขการแบ่งค่าเชิงลบใน Floating Point Unit</string>
     <string name="settings_frame_buffer_conversion">การแปลงค่าเฟรมบัฟเฟอร์</string>
+    <string name="settings_framerate_ntsc">เฟรมเรทสำหรับตัวเกมโซน NTSC</string>
+    <string name="settings_framerate_pal">เฟรมเรทสำหรับตัวเกมโซน PAL</string>
     <string name="settings_full_vu0_sync">ซิงโครไนซ์กับ Vector Unit 0 แบบเต็มที่</string>
     <string name="settings_fxaa">FXAA เฉดเดอร์</string>
     <string name="settings_gif_fifo_fix">จำลอง GIF FIFO</string>
@@ -459,6 +465,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_partial_target_invalidation">เปิดใช้งานเท็คเจอร์ไวไร้รอยต่อ</string>
     <string name="settings_patch_codes">เปิดใช้งานแพทช์โค้ดสูตร</string>
     <string name="settings_pcrtc_offsets">ค่าชดเชยของหน้าจอ</string>
+    <string name="settings_precache_texture_replacements">โหลดแคชเท็คเจอร์ไว้</string>
     <string name="settings_preload_frame_data">โหลดข้อมูลเฟรมล่วงหน้า</string>
     <string name="settings_preload_textures">โหลดเท็คเจอร์ล่วงหน้า</string>
     <string name="settings_read_tc_on_close">อ่านแหล่งเป้าหมายที่ใกล้เคียง</string>
@@ -494,89 +501,6 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_software_rendering_threads">เธรดที่ใช้แสดงผลด้วยซอฟต์แวร์</string>
     <string name="settings_spin_cpu_for_readbacks">หมุน CPU สำหรับใช้อ่านค่าส่งกลับ</string>
     <string name="settings_spin_gpu_for_readbacks">หมุน GPU สำหรับใช้อ่านค่าส่งกลับ</string>
-    <string name="settings_summary_achievements_challenge_mode">โหมดท้าทายสำหรับเป้าหมายความสำเร็จ รวมถึงการติดตามผลจากกระดานผู้นำ และปิดใช้งานฟังก์ชั่นเซฟสเตท สูตรโกง และการปรับลดความเร็ว</string>
-    <string name="settings_summary_achievements_enable">เมื่อเปิดใช้งาน และเข้าสู่ระบบแล้ว NetherSX2 จะสแกนหาเป้าหมายความสำเร็จเมื่อเริ่มต้นเกม</string>
-    <string name="settings_summary_achievements_leaderboards">เปิดใช้งานการส่งไปยังกระดานผู้นำในโหมดยากสุดโหดสำหรับเกมที่รองรับ หากปิดใช้งาน คุณยังสามารถดูในกระดานผู้นำได้ แต่จะไม่มีการอัพโหลดคะแนน</string>
-    <string name="settings_summary_achievements_login">ลงชื่อเข้าใช้งานบัญชีของคุณเพื่อบันทึกเป้าหมายความสำเร็จ</string>
-    <string name="settings_summary_achievements_logout">ออกจากระบบบัญชีผู้ใช้งานของคุณ เป้าหมายความสำเร็จใหม่จะไม่ถูกบันทึก</string>
-    <string name="settings_summary_achievements_notifications">แสดงข้อความแจ้งเตือนเกี่ยวกับเหตุการณ์ต่างๆ เช่น การปลดล็อคเป้าหมายความสำเร็จ และการส่งคะแนนไปยังกระดานผู้นำ</string>
-    <string name="settings_summary_achievements_register">เปิดลิงก์เพื่อทำการสร้างบัญชีผู้ใช้งานใหม่</string>
-    <string name="settings_summary_achievements_rich_presence">ข้อมูล Rich presence จะถูกรวบรวม และส่งไปยังเซิร์ฟเวอร์ที่รองรับ อย่างเช่นใน Discord</string>
-    <string name="settings_summary_achievements_sound_effects">เล่นเสียงเอฟเฟ็กต์สำหรับกิจกรรมต่างๆ เช่น การปลดล็อกรางวัลพิเศษ และการส่งแต้มไปยังกระดานผู้นำ</string>
-    <string name="settings_summary_achievements_test_mode">เมื่อเปิดใช้งาน NetherSX2 จะถือว่าเป้าหมายความสำเร็จทั้งหมดถูกล็อค และไม่ส่งการแจ้งเตือนการปลดล็อคต่างๆ ไปยังเซิร์ฟเวอร์</string>
-    <string name="settings_summary_achievements_unofficial_test_mode">รายการ และการเปิดใช้งานเซ็ตที่ไม่เป็นทางการ โปรดทราบว่าเป้าหมายความสำเร็จเหล่านี้จะไม่ถูกติดตาม ดังนั้นจะมีการปลดล็อกในทุกครั้ง</string>
-    <string name="settings_summary_achievements_view_profile">เปิดลิงก์ไปยังโปรไฟล์ของคุณ</string>
-    <string name="settings_summary_anti_blue">ตั้งค่าทดลองเพื่อใช้ในการย้อนภาพเบลอ/ป้องกันภาพกระพริบ ในหลาย ๆ เกม</string>
-    <string name="settings_summary_async_texture_loading">ลดอาการกระตุกตอนใช้งานเท็คเจอร์แพ็ค แต่ผลลัพธ์อาจจะทำให้เท็คเจอร์กระพริบ</string>
-    <string name="settings_summary_audio_latency">กำหนดขนาดบัฟเฟอร์เสียงของเป้าหมาย</string>
-    <string name="settings_summary_auto_hide_touchscreen_controller">ซ่อนปุ่มควบคุมหน้าจอสัมผัส เมื่อตรวจพบการเชื่อมต่อคอนโทรเลอร์จากภายนอก</string>
-    <string name="settings_summary_bind_to_right_stick">เซ็ตปุ่มทับแบบปัดหน้าจอไปมา เพื่อใช้ในการควบคุมปุ่มอนาล็อกขวา</string>
-    <string name="settings_summary_cas">เปิดใช้งานฟีเจอร์ FidelityFX Contrast Adaptive Sharpening</string>
-    <string name="settings_summary_cdvd_verbose_reads">เขียนเก็บบันทึกค่าสถานะเมื่อมีการอ่านดิสก์เกิดขึ้น</string>
-    <string name="settings_summary_challenge_indicators">แสดงไอคอนที่มุมล่างขวาล่างของหน้าจอ เมื่อมีการเปิดใช้งานเป้าหมายความสำเร็จ/ความท้าทาย ที่ได้กำหนดไว้</string>
-    <string name="settings_summary_debug_gpu_device">คุณสมบัติตัวช่วยตรวจหาบั๊ก - เปิดใช้งานรายงานการตรวจหาบั๊กจากไดรเวอร์โอเพ่นจีแอล</string>
-    <string name="settings_summary_disable_dual_source_blend">ป้องกันการใช้งาน Dual-source blending ในมือถือที่รองรับ ตัวเลือกนี้สำหรับใช้เป็นตัวช่วยแก้ไขบั๊ก</string>
-    <string name="settings_summary_disable_framebuffer_fetch">ปิดใช้งานดึงข้อมูลเฟรมบัฟเฟอร์ในการผสมผสานเฉดสี โดยถอยกลับไปที่มัลติพาส และกีดกั้นเท็คเจอร์</string>
-    <string name="settings_summary_disable_interlace_offset">ลบค่าชดเชยของเส้นทาง เมื่อปรับใช้การสแกนภาพแบบสลับเส้นในรูปแบบ Weave/Blend</string>
-    <string name="settings_summary_ee_console">บันทึกค่าข้อความที่เขียนมาโดยเกมจากการประมวลผลของ EE</string>
-    <string name="settings_summary_ee_fpu_correct_add_sub">เพิ่ม/ลบ กระบวนการคำสั่งให้มีผลลัพธ์เหมือนกันกับในคอนโซล (PS2)</string>
-    <string name="settings_summary_enable_ee_recompiler">ดำเนินการแปลงไบนารี่แบบ JIT ของรหัสเครื่อง 64 บิต MIPS-IV เป็นรหัสดั้งเดิมของอุปกรณ์นั้นๆ</string>
-    <string name="settings_summary_enable_fast_cdvd">การเข้าถึงดิสก์ไวขึ้น ลดเวลาในการโหลดข้อมูลเกม แต่ไม่แนะนำ</string>
-    <string name="settings_summary_enable_fastmem">ใช้นามแฝงของหน่วยความจำ และการแบ็คแพทช์เพื่อลดโอเวอร์เฮดในการเข้าถึง</string>
-    <string name="settings_summary_enable_frame_limit">ถ้าปิดใช้งาน, ระบบจะรันเกมได้ไวมากขึ้นเท่าที่เครื่องจะทำได้</string>
-    <string name="settings_summary_enable_hostfs">ช่วยให้ Guests สามารถเข้าถึงไฟล์ภายนอกไดเร็กทอรี่ได้ด้วย ELF</string>
-    <string name="settings_summary_enable_iop">ดำเนินการแปลงไบนารี่แบบ just-in-time ของรหัสเครื่อง 32 บิต MIPS-I เป็นรหัสดั้งเดิมของอุปกรณ์นั้นๆ</string>
-    <string name="settings_summary_enable_vu_recompiler">รีคอมไพล์ไมโครโปรแกรม VU เป็นโค้ดเนทีฟ ควรปิดใช้งาน เอาไว้สำหรับใช้แก้บั๊กเท่านั้น</string>
-    <string name="settings_summary_expand_to_cutout_area">ขยายพื้นที่การแสดงผลไปยังส่วนของพื้นที่ (หรือในขอบจอแหว่ง) ที่ถูกตัดออก</string>
-    <string name="settings_summary_fast_boot">ข้ามการแสดงเชลล์และอินโทรของไบออส เพื่อบู้ตเข้าเกมโดยตรง</string>
-    <string name="settings_summary_file_logging">เขียนบันทึกค่าการทำงานไปยังไฟล์ emulog.txt ในแหล่งเก็บข้อมูลภายนอก อาจทำให้ประสิทธิภาพในการประมวลผลลดลง</string>
-    <string name="settings_summary_fxaa">ปรับภาพให้เนียนโดยใช้การลบรอยหยักประมาณค่าอย่างรวดเร็วเหมือนกับกระบวนการปรับเฉดแสงสี</string>
-    <string name="settings_summary_gpu_palette_conversion">ใช้ค่าแถบรายการสีไปยังเท็คเจอร์บน GPU แทนที่ CPU อาจจะทำงานได้ช้ากว่าใช้แถบรายการสี CPU ในหลายๆ เกม</string>
-    <string name="settings_summary_gs_sync_to_host_refresh">ปรับความเร็วในการจำลอง เพื่อให้ช่วงเวลารีเฟรชของ Guest ตรงกับอัตราการรีเฟรชของ Host</string>
-    <string name="settings_summary_host_vsync">ประสานการนำเสนอเฟรมด้วยค่ารีเฟรชหน้าจอของอุปกรณ์นั้นๆ</string>
-    <string name="settings_summary_import_bios">นำเข้าไฟล์ไบออสใหม่ ที่ไม่ได้อยู่ในรายการนี้</string>
-    <string name="settings_summary_instant_vu1">ทำงานได้เร็วขึ้น แต่ในบางเกมอาจจะส่งผลให้มีอัตราเฟรมเรทสูงกว่าในเครื่อง PS2</string>
-    <string name="settings_summary_integer_scaling">เพิ่มการเติมลงในพื้นที่แสดงผลเพื่อให้แน่ใจว่าอัตราส่วนระหว่างพิกเซลบนอุปกรณ์ที่ใช้งาน กับพิกเซลในคอนโซล (PS2) เป็นค่าตัวเลขจำนวนเต็ม ซึ่งอาจส่งผลให้ภาพคมชัดขึ้นในเกมประเภท 2D บางเกม</string>
-    <string name="settings_summary_iop_console">บันทึกค่าข้อความที่เขียนมาโดยเกมจากการประมวลผลของ IOP</string>
-    <string name="settings_summary_load_texture_replacements">โหลดใช้เท็คเจอร์แพ็คที่ผู้ใช้งานได้ลงเอาไว้</string>
-    <string name="settings_summary_logcat_logging">เขียนบันทึกค่าไปเก็บไว้ในอุปกรณ์ ลดประสิทธิภาพในการประมวลผลลงเล็กน้อย</string>
-    <string name="settings_summary_multitap">เพิ่มพอร์ตคอนโทรลเลอร์พิเศษอันที่สาม ซึ่งมีความเข้ากันไม่ได้กับทุกๆ เกม</string>
-    <string name="settings_summary_multithreaded_vu1">ใช้งานเธรดที่สองสำหรับหน่วยประมวลผลเวกเตอร์แบบไมโครโปรแกรม ซึ่งจะช่วยเพิ่มความเร็วได้มาก</string>
-    <string name="settings_summary_no_interlacing_patches">ใช้งานแพทช์ ไม่-สแกนภาพแบบสลับเส้น ในเกมที่รองรับ</string>
-    <string name="settings_summary_osd_scale">เพิ่มหรือลดขนาดของข้อความ/ค่าสถิติ บนหน้าจอ</string>
-    <string name="settings_summary_output_volume">ควบคุมระดับเสียงของระบบจำลองเสียงในตัวอีมูเลเตอร์</string>
-    <string name="settings_summary_patch_codes">เปิดใช้แพทช์โค้ดสูตรที่ผู้ใช้งานต้องการ</string>
-    <string name="settings_summary_pcrtc_offsets">จำลองพื้นที่ขอบแบบในจอ CRT</string>
-    <string name="settings_summary_save_gs_dump">ใช้ตัวเลือกนี้ เมื่อนักพัฒนาถามถึงเท่านั้น</string>
-    <string name="settings_summary_save_state_on_shutdown">เซฟสเตทเมื่อกดปิดเกม เปิดตั้งค่านี้จะช่วยให้คุณกลับมาเล่นต่อ หลังจากที่ออกจากเกมไป</string>
-    <string name="settings_summary_shadeboost">เปิดใช้งานการปรับแต่ง ความสว่าง/ความเข้ม/ความอิ่มตัวของสี</string>
-    <string name="settings_summary_show_cpu_usage">แสดงอัตราการใช้งานซีพียูโดยยืดค่ามาจากบนเธรด ในมุมขวาบนของหน้าจอ</string>
-    <string name="settings_summary_show_fps">แสดงจำนวนเฟรมของเกม (อัตราเฟรมภายใน) และเฟรมวิดีโอ (ความเร็ว) ที่มุมบนขวาของหน้าจอ</string>
-    <string name="settings_summary_show_frame_times">แสดงประวัติเสมือนของช่วงเวลาเฟรม ที่มุมบนขวาของหน้าจอ</string>
-    <string name="settings_summary_show_gpu_usage">แสดงอัตราการใช้งาน GPU โดยยึดค่ามาจากโฮสต์ ในมุมขวาบนของหน้าจอ (ประสิทธิภาพอาจลดลง)</string>
-    <string name="settings_summary_show_gs_stats">แสดงรายละเอียดเกี่ยวกับเธรดสังเคราะห์กราฟิก (เช่น Primitives, Draw calls) ที่มุมขวาบนของหน้าจอ</string>
-    <string name="settings_summary_show_indicators">แสดงตัวบ่งชี้เมื่อมีการรันออกจากนอกพารามิเตอร์ปกติ (เช่น กดปุ่มเร่งความเร็ว)</string>
-    <string name="settings_summary_show_inputs">แสดงสถานะอินพุตคอนโทรลเลอร์ที่ใช้อยู่ ตรงมุมล่างซ้ายของหน้าจอ</string>
-    <string name="settings_summary_show_messages">แสดงข้อความบนหน้าจอ เมื่อมีการใช้งานเกิดขึ้น อย่างเช่น ช่วงที่กำลังสร้าง/โหลดสเตท, การจับภาพหน้าจอ เป็นต้น</string>
-    <string name="settings_summary_show_overscan">แสดงพื้นที่โอเวอร์สแกนที่ซ่อนอยู่โดยทั่วไป เมื่อมีการปรับใช้ค่าชดเชยของหน้าจอ</string>
-    <string name="settings_summary_show_resolution">แสดงค่าความละเอียดที่เกมใช้แสดงผล ในมุมขวาบนของหน้าจอ</string>
-    <string name="settings_summary_show_settings">แสดงภาพรวมของการตั้งค่า ตรงมุมล่างขวาของหน้าจอ</string>
-    <string name="settings_summary_show_speed">แสดงค่าความเร็วการจำลองระบบในขณะนั้นๆ ที่มุมขวาบนของหน้าจอในรูปแบบเปอร์เซ็นต์</string>
-    <string name="settings_summary_show_version_info">แสดงเวอร์ชั่นของซอฟต์แวร์ และรุ่นของอุปกรณ์นั้นๆ</string>
-    <string name="settings_summary_skip_presenting_duplicate_frames">พยายามตรวจจับเฟรมเรทภายในของเกม และข้ามการแสดงเฟรมที่ซ้ำกัน สามารถเพิ่มประสิทธิภาพได้อย่างมากในบางเกมหรือไดร์เวอร์</string>
-    <string name="settings_summary_threaded_presentation">ส่งต่อ/นำเสนอเฟรมบนเธรดพื้นหลัง เมื่อมีการปรับใช้ตัวแสดงผล Vulkan สามารถช่วยปรับปรุงประสิทธิภาพบนอุปกรณ์ที่ใช้ชิปกราฟิก Mali ได้ในบางรุ่น</string>
-    <string name="settings_summary_touch_gliding">ให้คุณกดปุ่มควบคุมบนหน้าจอได้หลายปุ่มพร้อมๆ กัน โดยการลากนิ้วค้างไว้ แล้วไล่ไปตามหน้าจอ</string>
-    <string name="settings_summary_touchscreen_auto_hide_time">ซ่อนปุ่มควบคุมหน้าจอสัมผัส ตามเวลาที่ได้กำหนดไว้ การปรับค่าหน่วงเวลาเป็นศูนย์จะไม่มีการซ่อนปุ่มควบคุม</string>
-    <string name="settings_summary_touchscreen_controller_add_remove_buttons">สลับใช้การมองเห็นในแต่ละปุ่ม/ดำเนินการ</string>
-    <string name="settings_summary_touchscreen_controller_move_buttons">ปรับเปลี่ยนตำแหน่งปุ่มกดในหน้าจอสัมผัส</string>
-    <string name="settings_summary_touchscreen_controller_opacity">ควบคุมระดับความโปร่งใสของปุ่มกดในหน้าจอสัมผัส</string>
-    <string name="settings_summary_touchscreen_controller_scale_buttons">ปรับเปลี่ยนขนาดปุ่มกดในหน้าจอสัมผัส</string>
-    <string name="settings_summary_touchscreen_controller_toggle_buttons">เปลี่ยนแปลงรูปแบบของปุ่มจากการ กดค้างเพื่อกด เป็น แตะเพื่อกด</string>
-    <string name="settings_summary_touchscreen_enable_vibration">ส่งต่อการสั่นจากในเกม ไปยังมอเตอร์สั่นของอุปกรณ์ (ถ้าจอยมีระบบสั่น)</string>
-    <string name="settings_summary_vibrate_on_press">เปิดใช้งานการสั่นแบบเบา เมื่อกดควบคุมปุ่มหน้าจอสัมผัส แต่จำเป็นต้องเปิดตัวเลือก \"สั่นเมื่อแตะ\" บนอุปกรณ์ของคุณด้วย</string>
-    <string name="settings_summary_vibration_update_frequency">ควบคุมความถี่ที่ส่งการอัพเดตความสั่น อาจช่วยแก้ปัญหาหลุดการเชื่อมต่อ/ความล่าช้าของจอยเกม</string>
-    <string name="settings_summary_warn_about_unsafe_settings">แสดงข้อความบนหน้าจอ (OSD) เมื่อใช้การปรับใช้ตั้งค่าที่ไม่ปลอดภัย ซึ่งอาจจะทำให้เกมรวนได้</string>
-    <string name="settings_summary_widescreen_patches">ใช้งานแพทช์ปรับภาพสำหรับจอกว้างสัดส่วน 16:9 อัตโนมัติ ในเกมที่รองรับ</string>
     <string name="settings_synchronization_mode">โหมดการซิงโครไนซ์</string>
     <string name="settings_tc_offset_x">TC ชดเชยค่า X (/1000)</string>
     <string name="settings_tc_offset_y">TC ชดเชยค่า Y (/1000)</string>
@@ -638,8 +562,95 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="setup_wizard_welcome_first_paragraph">ขั้นตอนการตั้งค่าที่จำเป็นในเบื้องต้น ก่อนที่คุณจะสามารถเริ่มเล่นเกมได้</string>
     <string name="setup_wizard_welcome_second_paragraph">กด ถัดไป เพิ่มเริ่มต้น</string>
     <string name="setup_wizard_welcome_title">ยินดีต้อนรับสู่ NetherSX2!</string>
+    <string name="settings_summary_achievements_challenge_mode">โหมดท้าทายสำหรับเป้าหมายความสำเร็จ รวมถึงการติดตามผลจากกระดานผู้นำ และปิดใช้งานฟังก์ชั่นเซฟสเตท สูตรโกง และการปรับลดความเร็ว</string>
+    <string name="settings_summary_achievements_enable">เมื่อเปิดใช้งาน และเข้าสู่ระบบแล้ว NetherSX2 จะสแกนหาเป้าหมายความสำเร็จเมื่อเริ่มต้นเกม</string>
+    <string name="settings_summary_achievements_leaderboards">เปิดใช้งานการส่งไปยังกระดานผู้นำในโหมดยากสุดโหดสำหรับเกมที่รองรับ หากปิดใช้งาน คุณยังสามารถดูในกระดานผู้นำได้ แต่จะไม่มีการอัพโหลดคะแนน</string>
+    <string name="settings_summary_achievements_login">ลงชื่อเข้าใช้งานบัญชีของคุณเพื่อบันทึกเป้าหมายความสำเร็จ</string>
+    <string name="settings_summary_achievements_logout">ออกจากระบบบัญชีผู้ใช้งานของคุณ เป้าหมายความสำเร็จใหม่จะไม่ถูกบันทึก</string>
+    <string name="settings_summary_achievements_notifications">แสดงข้อความแจ้งเตือนเกี่ยวกับเหตุการณ์ต่างๆ เช่น การปลดล็อคเป้าหมายความสำเร็จ และการส่งคะแนนไปยังกระดานผู้นำ</string>
+    <string name="settings_summary_achievements_register">เปิดลิงก์เพื่อทำการสร้างบัญชีผู้ใช้งานใหม่</string>
+    <string name="settings_summary_achievements_rich_presence">ข้อมูล Rich presence จะถูกรวบรวม และส่งไปยังเซิร์ฟเวอร์ที่รองรับ อย่างเช่นใน Discord</string>
+    <string name="settings_summary_achievements_sound_effects">เล่นเสียงเอฟเฟ็กต์สำหรับกิจกรรมต่างๆ เช่น การปลดล็อกรางวัลพิเศษ และการส่งแต้มไปยังกระดานผู้นำ</string>
+    <string name="settings_summary_achievements_test_mode">เมื่อเปิดใช้งาน NetherSX2 จะถือว่าเป้าหมายความสำเร็จทั้งหมดถูกล็อค และไม่ส่งการแจ้งเตือนการปลดล็อคต่างๆ ไปยังเซิร์ฟเวอร์</string>
+    <string name="settings_summary_achievements_unofficial_test_mode">รายการ และการเปิดใช้งานเซ็ตที่ไม่เป็นทางการ โปรดทราบว่าเป้าหมายความสำเร็จเหล่านี้จะไม่ถูกติดตาม ดังนั้นจะมีการปลดล็อกในทุกครั้ง</string>
+    <string name="settings_summary_achievements_view_profile">เปิดลิงก์ไปยังโปรไฟล์ของคุณ</string>
+    <string name="settings_summary_anti_blue">ตั้งค่าทดลองเพื่อใช้ในการย้อนภาพเบลอ/ป้องกันภาพกระพริบ ในหลาย ๆ เกม</string>
+    <string name="settings_summary_async_texture_loading">ลดอาการกระตุกตอนใช้งานเท็คเจอร์แพ็ค แต่ผลลัพธ์อาจจะทำให้เท็คเจอร์ที่โหลดขึ้นมากระพริบ</string>
+    <string name="settings_summary_audio_latency">กำหนดขนาดบัฟเฟอร์เสียงของเป้าหมาย</string>
+    <string name="settings_summary_auto_hide_touchscreen_controller">ซ่อนปุ่มควบคุมหน้าจอสัมผัส เมื่อตรวจพบการเชื่อมต่อคอนโทรเลอร์จากภายนอก</string>
+    <string name="settings_summary_bind_to_right_stick">เซ็ตปุ่มทับแบบปัดหน้าจอไปมา เพื่อใช้ในการควบคุมปุ่มอนาล็อกขวา</string>
+    <string name="settings_summary_cas">เปิดใช้งานฟีเจอร์ FidelityFX Contrast Adaptive Sharpening</string>
+    <string name="settings_summary_cdvd_verbose_reads">เขียนเก็บบันทึกค่าสถานะเมื่อมีการอ่านดิสก์เกิดขึ้น</string>
+    <string name="settings_summary_challenge_indicators">แสดงไอคอนที่มุมล่างขวาล่างของหน้าจอ เมื่อมีการเปิดใช้งานเป้าหมายความสำเร็จ/ความท้าทาย ที่ได้กำหนดไว้</string>
+    <string name="settings_summary_debug_gpu_device">คุณสมบัติตัวช่วยตรวจหาบั๊ก - เปิดใช้งานรายงานการตรวจหาบั๊กจากไดรเวอร์โอเพ่นจีแอล</string>
+    <string name="settings_summary_disable_dual_source_blend">ป้องกันการใช้งาน Dual-source blending ในมือถือที่รองรับ ตัวเลือกนี้สำหรับใช้เป็นตัวช่วยแก้ไขบั๊ก</string>
+    <string name="settings_summary_disable_framebuffer_fetch">ปิดใช้งานดึงข้อมูลเฟรมบัฟเฟอร์ในการผสมผสานเฉดสี โดยถอยกลับไปที่มัลติพาส และกีดกั้นเท็คเจอร์</string>
+    <string name="settings_summary_disable_interlace_offset">ลบค่าชดเชยของเส้นทาง เมื่อปรับใช้การสแกนภาพแบบสลับเส้นในรูปแบบ Weave/Blend</string>
+    <string name="settings_summary_dump_replaceable_mipmaps">ดึงไฟล์เท็คเจอร์ประเภท Mipmap ออกมาพร้อมกันด้วย</string>
+    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกม มาเก็บไว้ในเครื่อง (ประสิทธิภาพอาจจะลดลง)</string>
+    <string name="settings_summary_dump_texture_fmv_active">ดึงไฟล์เท็คเจอร์จากคัตซีน FMV ไม่จำเป็น ไม่ควรเปิดใช้งาน</string>
+    <string name="settings_summary_ee_console">บันทึกค่าข้อความที่เขียนมาโดยเกมจากการประมวลผลของ EE</string>
+    <string name="settings_summary_ee_fpu_correct_add_sub">เพิ่ม/ลบ กระบวนการคำสั่งให้มีผลลัพธ์เหมือนกันกับในคอนโซล (PS2)</string>
+    <string name="settings_summary_enable_ee_recompiler">ดำเนินการแปลงไบนารี่แบบ JIT ของรหัสเครื่อง 64 บิต MIPS-IV เป็นรหัสดั้งเดิมของอุปกรณ์นั้นๆ</string>
+    <string name="settings_summary_enable_fast_cdvd">การเข้าถึงดิสก์ไวขึ้น ลดเวลาในการโหลดข้อมูลเกม แต่ไม่แนะนำ</string>
+    <string name="settings_summary_enable_fastmem">ใช้นามแฝงของหน่วยความจำ และการแบ็คแพทช์เพื่อลดโอเวอร์เฮดในการเข้าถึง</string>
+    <string name="settings_summary_enable_frame_limit">ถ้าปิดใช้งาน, ระบบจะรันเกมได้ไวมากขึ้นเท่าที่เครื่องจะทำได้</string>
+    <string name="settings_summary_enable_hostfs">ช่วยให้ Guests สามารถเข้าถึงไฟล์ภายนอกไดเร็กทอรี่ได้ด้วย ELF</string>
+    <string name="settings_summary_enable_iop">ดำเนินการแปลงไบนารี่แบบ just-in-time ของรหัสเครื่อง 32 บิต MIPS-I เป็นรหัสดั้งเดิมของอุปกรณ์นั้นๆ</string>
+    <string name="settings_summary_enable_vu_recompiler">รีคอมไพล์ไมโครโปรแกรม VU เป็นโค้ดเนทีฟ ควรปิดใช้งาน เอาไว้สำหรับใช้แก้บั๊กเท่านั้น</string>
+    <string name="settings_summary_expand_to_cutout_area">ขยายพื้นที่การแสดงผลไปยังส่วนของพื้นที่ (หรือในขอบจอแหว่ง) ที่ถูกตัดออก</string>
+    <string name="settings_summary_fast_boot">ข้ามการแสดงเชลล์และอินโทรของไบออส เพื่อบู้ตเข้าเกมโดยตรง</string>
+    <string name="settings_summary_file_logging">เขียนบันทึกค่าการทำงานไปยังไฟล์ emulog.txt ในแหล่งเก็บข้อมูลภายนอก อาจทำให้ประสิทธิภาพในการประมวลผลลดลง</string>
+    <string name="settings_summary_fxaa">ปรับภาพให้เนียนโดยใช้การลบรอยหยักประมาณค่าอย่างรวดเร็วเหมือนกับกระบวนการปรับเฉดแสงสี</string>
+    <string name="settings_summary_gpu_palette_conversion">ใช้ค่าแถบรายการสีไปยังเท็คเจอร์บน GPU แทนที่ CPU อาจจะทำงานได้ช้ากว่าใช้แถบรายการสี CPU ในหลายๆ เกม</string>
+    <string name="settings_summary_gs_sync_to_host_refresh">ปรับความเร็วในการจำลอง เพื่อให้ช่วงเวลารีเฟรชของ Guest ตรงกับอัตราการรีเฟรชของ Host</string>
+    <string name="settings_summary_host_vsync">ประสานการนำเสนอเฟรมด้วยค่ารีเฟรชหน้าจอของอุปกรณ์นั้นๆ</string>
+    <string name="settings_summary_import_bios">นำเข้าไฟล์ไบออสใหม่ ที่ไม่ได้อยู่ในรายการนี้</string>
+    <string name="settings_summary_instant_vu1">ทำงานได้เร็วขึ้น แต่ในบางเกมอาจจะส่งผลให้มีอัตราเฟรมเรทสูงกว่าในเครื่อง PS2</string>
+    <string name="settings_summary_integer_scaling">เพิ่มการเติมลงในพื้นที่แสดงผลเพื่อให้แน่ใจว่าอัตราส่วนระหว่างพิกเซลบนอุปกรณ์ที่ใช้งาน กับพิกเซลในคอนโซล (PS2) เป็นค่าตัวเลขจำนวนเต็ม ซึ่งอาจส่งผลให้ภาพคมชัดขึ้นในเกมประเภท 2D บางเกม</string>
+    <string name="settings_summary_iop_console">บันทึกค่าข้อความที่เขียนมาโดยเกมจากการประมวลผลของ IOP</string>
+    <string name="settings_summary_load_texture_replacements">โหลดใช้เท็คเจอร์แพ็คที่ผู้ใช้งานได้ลงเอาไว้</string>
+    <string name="settings_summary_logcat_logging">เขียนบันทึกค่าไปเก็บไว้ในอุปกรณ์ ลดประสิทธิภาพในการประมวลผลลงเล็กน้อย</string>
+    <string name="settings_summary_multitap">เพิ่มพอร์ตคอนโทรลเลอร์พิเศษอันที่สาม ซึ่งมีความเข้ากันไม่ได้กับทุกๆ เกม</string>
+    <string name="settings_summary_multithreaded_vu1">ใช้งานเธรดที่สองสำหรับหน่วยประมวลผลเวกเตอร์แบบไมโครโปรแกรม ซึ่งจะช่วยเพิ่มความเร็วได้มาก</string>
+    <string name="settings_summary_no_interlacing_patches">ใช้งานแพทช์ ไม่-สแกนภาพแบบสลับเส้น ในเกมที่รองรับ</string>
+    <string name="settings_summary_osd_scale">เพิ่มหรือลดขนาดของข้อความ/ค่าสถิติ บนหน้าจอ</string>
+    <string name="settings_summary_output_volume">ควบคุมระดับเสียงของระบบจำลองเสียงในตัวอีมูเลเตอร์</string>
+    <string name="settings_summary_patch_codes">เปิดใช้แพทช์โค้ดสูตรที่ผู้ใช้งานต้องการ</string>
+    <string name="settings_summary_pcrtc_offsets">จำลองพื้นที่ขอบแบบในจอ CRT</string>
+    <string name="settings_summary_precache_texture_replacements">โหลดเท็คเจอร์แทนที่ทั้งหมดไว้ล่วงหน้าในแรม ไม่ควรปรับใช้คู่กับการโหลดแบบอะซิงโครนัส</string>
+    <string name="settings_summary_save_gs_dump">ใช้ตัวเลือกนี้ เมื่อนักพัฒนาถามถึงเท่านั้น</string>
+    <string name="settings_summary_save_state_on_shutdown">เซฟสเตทเมื่อกดปิดเกม เปิดตั้งค่านี้จะช่วยให้คุณกลับมาเล่นต่อ หลังจากที่ออกจากเกมไป</string>
+    <string name="settings_summary_shadeboost">เปิดใช้งานการปรับแต่ง ความสว่าง/ความเข้ม/ความอิ่มตัวของสี</string>
+    <string name="settings_summary_show_cpu_usage">แสดงอัตราการใช้งานซีพียูโดยยืดค่ามาจากบนเธรด ในมุมขวาบนของหน้าจอ</string>
+    <string name="settings_summary_show_fps">แสดงจำนวนเฟรมของเกม (อัตราเฟรมภายใน) และเฟรมวิดีโอ (ความเร็ว) ที่มุมบนขวาของหน้าจอ</string>
+    <string name="settings_summary_show_frame_times">แสดงประวัติเสมือนของช่วงเวลาเฟรม ที่มุมบนขวาของหน้าจอ</string>
+    <string name="settings_summary_show_gpu_usage">แสดงอัตราการใช้งาน GPU โดยยึดค่ามาจากโฮสต์ ในมุมขวาบนของหน้าจอ (ประสิทธิภาพอาจลดลง)</string>
+    <string name="settings_summary_show_gs_stats">แสดงรายละเอียดเกี่ยวกับเธรดสังเคราะห์กราฟิก (เช่น Primitives, Draw calls) ที่มุมขวาบนของหน้าจอ</string>
+    <string name="settings_summary_show_indicators">แสดงตัวบ่งชี้เมื่อมีการรันออกจากนอกพารามิเตอร์ปกติ (เช่น กดปุ่มเร่งความเร็ว)</string>
+    <string name="settings_summary_show_inputs">แสดงสถานะอินพุตคอนโทรลเลอร์ที่ใช้อยู่ ตรงมุมล่างซ้ายของหน้าจอ</string>
+    <string name="settings_summary_show_messages">แสดงข้อความบนหน้าจอ เมื่อมีการใช้งานเกิดขึ้น อย่างเช่น ช่วงที่กำลังสร้าง/โหลดสเตท, การจับภาพหน้าจอ เป็นต้น</string>
+    <string name="settings_summary_show_overscan">แสดงพื้นที่โอเวอร์สแกนที่ซ่อนอยู่โดยทั่วไป เมื่อมีการปรับใช้ค่าชดเชยของหน้าจอ</string>
+    <string name="settings_summary_show_resolution">แสดงค่าความละเอียดที่เกมใช้แสดงผล ในมุมขวาบนของหน้าจอ</string>
+    <string name="settings_summary_show_settings">แสดงภาพรวมของการตั้งค่า ตรงมุมล่างขวาของหน้าจอ</string>
+    <string name="settings_summary_show_speed">แสดงค่าความเร็วการจำลองระบบในขณะนั้นๆ ที่มุมขวาบนของหน้าจอในรูปแบบเปอร์เซ็นต์</string>
+    <string name="settings_summary_show_version_info">แสดงเวอร์ชั่นของซอฟต์แวร์ และรุ่นของอุปกรณ์นั้นๆ</string>
+    <string name="settings_summary_skip_presenting_duplicate_frames">พยายามตรวจจับเฟรมเรทภายในของเกม และข้ามการแสดงเฟรมที่ซ้ำกัน สามารถเพิ่มประสิทธิภาพได้อย่างมากในบางเกมหรือไดร์เวอร์</string>
+    <string name="settings_summary_threaded_presentation">ส่งต่อ/นำเสนอเฟรมบนเธรดพื้นหลัง เมื่อมีการปรับใช้ตัวแสดงผล Vulkan สามารถช่วยปรับปรุงประสิทธิภาพบนอุปกรณ์ที่ใช้ชิปกราฟิก Mali ได้ในบางรุ่น</string>
+    <string name="settings_summary_touch_gliding">ให้คุณกดปุ่มควบคุมบนหน้าจอได้หลายปุ่มพร้อมๆ กัน โดยการลากนิ้วค้างไว้ แล้วไล่ไปตามหน้าจอ</string>
+    <string name="settings_summary_touchscreen_auto_hide_time">ซ่อนปุ่มควบคุมหน้าจอสัมผัส ตามเวลาที่ได้กำหนดไว้ การปรับค่าหน่วงเวลาเป็นศูนย์จะไม่มีการซ่อนปุ่มควบคุม</string>
+    <string name="settings_summary_touchscreen_controller_add_remove_buttons">สลับใช้การมองเห็นในแต่ละปุ่ม/ดำเนินการ</string>
+    <string name="settings_summary_touchscreen_controller_move_buttons">ปรับเปลี่ยนตำแหน่งปุ่มกดในหน้าจอสัมผัส</string>
+    <string name="settings_summary_touchscreen_controller_opacity">ควบคุมระดับความโปร่งใสของปุ่มกดในหน้าจอสัมผัส</string>
+    <string name="settings_summary_touchscreen_controller_scale_buttons">ปรับเปลี่ยนขนาดปุ่มกดในหน้าจอสัมผัส</string>
+    <string name="settings_summary_touchscreen_controller_toggle_buttons">เปลี่ยนแปลงรูปแบบของปุ่มจากการ กดค้างเพื่อกด เป็น แตะเพื่อกด</string>
+    <string name="settings_summary_touchscreen_enable_vibration">ส่งต่อการสั่นจากในเกม ไปยังมอเตอร์สั่นของอุปกรณ์ (ถ้าจอยมีระบบสั่น)</string>
+    <string name="settings_summary_vibrate_on_press">เปิดใช้งานการสั่นแบบเบา เมื่อกดควบคุมปุ่มหน้าจอสัมผัส แต่จำเป็นต้องเปิดตัวเลือก \"สั่นเมื่อแตะ\" บนอุปกรณ์ของคุณด้วย</string>
+    <string name="settings_summary_vibration_update_frequency">ควบคุมความถี่ที่ส่งการอัพเดตความสั่น อาจช่วยแก้ปัญหาหลุดการเชื่อมต่อ/ความล่าช้าของจอยเกม</string>
+    <string name="settings_summary_warn_about_unsafe_settings">แสดงข้อความบนหน้าจอ (OSD) เมื่อใช้การปรับใช้ตั้งค่าที่ไม่ปลอดภัย ซึ่งอาจจะทำให้เกมรวนได้</string>
+    <string name="settings_summary_widescreen_patches">ใช้งานแพทช์ปรับภาพสำหรับจอกว้างสัดส่วน 16:9 อัตโนมัติ ในเกมที่รองรับ</string>
     <string name="title_activity_game_properties">คุณสมบัติของเกม</string>
-    <string name="title_activity_settings">การตั้งค่าแอปพลิเคชั่น</string>
+    <string name="title_activity_settings">การตั้งค่าแอพ</string>
     <string name="title_activity_setup_wizard">ตัวช่วยเซ็ตการตั้งค่า</string>
     <string name="touchscreen_category_profiles">โปรไฟล์</string>
     <string name="touchscreen_category_settings">การตั้งค่า</string>
@@ -649,11 +660,6 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="touchscreen_reset_layout">คืนค่าเค้าโครงปุ่ม</string>
     <string name="touchscreen_reset_layout_confirm">รีเซ็ตเค้าโครงปุ่มที่ใช้ควบคุมในหน้าจอสัมผัสทั้งหมด การปรับเปลี่ยนค่าใดๆ ที่คุณทำไว้ อาจจะสูญหาย</string>
     <string name="touchscreen_reset_layout_summary">แทนที่เค้าโครงปุ่มกดที่ใช้อยู่ในปัจจุบันด้วยค่าเริ่มต้น</string>
-    <string name="update_notes_title">เอกสารการอัปเดต</string>
+    <string name="update_notes_title">เอกสารการอัพเดท</string>
     <string name="wait_for_save_on_shutdown">กำลังเซฟสเตท...</string>
-    <string name="settings_category_framerate">การควบคุมเฟรมเรท (วีดีโอ)</string>
-    <string name="settings_framerate_ntsc">เฟรมเรทสำหรับตัวเกมโซน NTSC</string>
-    <string name="settings_framerate_pal">เฟรมเรทสำหรับตัวเกมโซน PAL</string>
-    <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นมาเก็บไว้</string>
-    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกม มาเก็บไว้ในเครื่อง</string>
 </resources>
