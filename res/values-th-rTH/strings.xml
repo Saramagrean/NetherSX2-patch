@@ -109,7 +109,7 @@
     <string name="download_covers_help">"ในแบบฟอร์มด้านล่างนี้ ให้ระบุ URL ที่ต้องการจะดาวน์โหลดหน้าปกเกม โดยมี URL เทมเพลตหนึ่งรายการต่อบรรทัด ซึ่งมีตัวแปรดังต่อไปนี้:
 
 ${title}: ชื่อเกม
-${filetitle}:ชื่อคอมโพเนนต์ของชื่อไฟล์ของเกม
+${filetitle}: ชื่อคอมโพเนนต์ของชื่อไฟล์ของเกม
 ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="download_covers_missing_variables">ใช้ URL อย่างน้อยหนึ่งรายการที่ไม่มีตัวแปร</string>
     <string name="download_covers_no_urls">ยังไม่ได้ระบุ URL</string>
@@ -465,7 +465,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_partial_target_invalidation">เปิดใช้งานเท็คเจอร์ไวไร้รอยต่อ</string>
     <string name="settings_patch_codes">เปิดใช้งานแพทช์โค้ดสูตร</string>
     <string name="settings_pcrtc_offsets">ค่าชดเชยของหน้าจอ</string>
-    <string name="settings_precache_texture_replacements">โหลดแคชเท็คเจอร์ไว้</string>
+    <string name="settings_precache_texture_replacements">โหลดแคชเท็คเจอร์ไว้ในแรม</string>
     <string name="settings_preload_frame_data">โหลดข้อมูลเฟรมล่วงหน้า</string>
     <string name="settings_preload_textures">โหลดเท็คเจอร์ล่วงหน้า</string>
     <string name="settings_read_tc_on_close">อ่านแหล่งเป้าหมายที่ใกล้เคียง</string>

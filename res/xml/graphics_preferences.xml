@@ -251,6 +251,7 @@
             app:useSimpleSummaryProvider="true" />
         <SwitchPreferenceCompat
             app:defaultValue="true"
+            app:dependency="EmuCore/GS/LoadTextureReplacements"
             app:iconSpaceReserved="false"
             app:key="EmuCore/GS/LoadTextureReplacementsAsync"
             app:summary="@string/settings_summary_async_texture_loading"
