@@ -391,9 +391,9 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_dithering">การรวมจุดสี</string>
     <string name="settings_dma_busy_fix">แก้ไขความยุ่งเหยิงใน DMA</string>
     <string name="settings_driver_info_unavailable">ยังไม่พร้อมใช้งาน เมื่อ Virtual Machine ไม่ได้เริ่มทำงาน</string>
-    <string name="settings_dump_replaceable_mipmaps">ดึงไฟล์ผิวพื้น Mipmap</string>
-    <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นมาเก็บไว้</string>
-    <string name="settings_dump_texture_fmv_active">ดึงไฟล์ผิวพื้นจาก FMV</string>
+    <string name="settings_dump_replaceable_mipmaps">ดึงไฟล์ผิวพื้นประเภท Mipmap มาเก็บไว้</string>
+    <string name="settings_dump_replaceable_textures">ดึงไฟล์ผิวพื้นทั่วไปมาเก็บไว้</string>
+    <string name="settings_dump_texture_fmv_active">ดึงไฟล์ผิวพื้นจากคัตซีน FMV</string>
     <string name="settings_ee_console">เปิดใช้งานคอนโซล EE</string>
     <string name="settings_ee_cycle_rate">อัตราการหมุนเวียน Emotion Engine (ค่าความถี่ซีพียูต่ำ)</string>
     <string name="settings_ee_cycle_skip">ข้ามการหมุนเวียน Emotion Engine (ค่าความถี่ซีพียูต่ำ)</string>
@@ -586,8 +586,8 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_summary_disable_dual_source_blend">ป้องกันการใช้งาน Dual-source blending ในมือถือที่รองรับ ตัวเลือกนี้สำหรับใช้เป็นตัวช่วยแก้ไขบั๊ก</string>
     <string name="settings_summary_disable_framebuffer_fetch">ปิดใช้งานดึงข้อมูลเฟรมบัฟเฟอร์ในการผสมผสานเฉดสี โดยถอยกลับไปที่มัลติพาส และกีดกั้นเท็คเจอร์</string>
     <string name="settings_summary_disable_interlace_offset">ลบค่าชดเชยของเส้นทาง เมื่อปรับใช้การสแกนภาพแบบสลับเส้นในรูปแบบ Weave/Blend</string>
-    <string name="settings_summary_dump_replaceable_mipmaps">ดึงไฟล์เท็คเจอร์ประเภท Mipmap ออกมาพร้อมกันด้วย</string>
-    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์จากในเกม มาเก็บไว้ในเครื่อง (ประสิทธิภาพอาจจะลดลง)</string>
+    <string name="settings_summary_dump_replaceable_mipmaps">ดึงไฟล์เท็คเจอร์ประเภท Mipmap ออกมาพร้อมกันกับเท็คเจอร์ทั่วไปด้วย</string>
+    <string name="settings_summary_dump_replaceable_textures">ดึงไฟล์เท็คเจอร์ทั่วไปจากในเกม มาเก็บไว้ในเครื่อง (ประสิทธิภาพอาจจะลดลง)</string>
     <string name="settings_summary_dump_texture_fmv_active">ดึงไฟล์เท็คเจอร์จากคัตซีน FMV ไม่จำเป็น ไม่ควรเปิดใช้งาน</string>
     <string name="settings_summary_ee_console">บันทึกค่าข้อความที่เขียนมาโดยเกมจากการประมวลผลของ EE</string>
     <string name="settings_summary_ee_fpu_correct_add_sub">เพิ่ม/ลบ กระบวนการคำสั่งให้มีผลลัพธ์เหมือนกันกับในคอนโซล (PS2)</string>
@@ -650,7 +650,7 @@ ${serial}: รหัสซีเรียลของเกม"</string>
     <string name="settings_summary_warn_about_unsafe_settings">แสดงข้อความบนหน้าจอ (OSD) เมื่อใช้การปรับใช้ตั้งค่าที่ไม่ปลอดภัย ซึ่งอาจจะทำให้เกมรวนได้</string>
     <string name="settings_summary_widescreen_patches">ใช้งานแพทช์ปรับภาพสำหรับจอกว้างสัดส่วน 16:9 อัตโนมัติ ในเกมที่รองรับ</string>
     <string name="title_activity_game_properties">คุณสมบัติของเกม</string>
-    <string name="title_activity_settings">การตั้งค่าแอพ</string>
+    <string name="title_action_settings">การตั้งค่าแอพ</string>
     <string name="title_activity_setup_wizard">ตัวช่วยเซ็ตการตั้งค่า</string>
     <string name="touchscreen_category_profiles">โปรไฟล์</string>
     <string name="touchscreen_category_settings">การตั้งค่า</string>
